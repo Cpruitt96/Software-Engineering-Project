@@ -1,3 +1,3 @@
-#Software Engineering Project
-##Project: Strategy Game
-##Language: Swift
+# Software Engineering Project
+## Project: Strategy Game
+## Language: Swift
