@@ -6,7 +6,7 @@ The specific requirements are -
 
 ## 3.1 Functionality
 
-Introduction - The software is a game inspired by the classicphysical game Battleship.
+Introduction - The software is a game inspired by the classic physical game Battleship.
 
 ### 3.1.1 Game Essentials 
 
