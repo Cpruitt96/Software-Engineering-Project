@@ -14,7 +14,7 @@ Introduction - The software is a game inspired by the classic physical game Batt
 
 3.1.1.2 The game board should be able to be reset for a new game
 
-3.1.1.3 The game should display a game over message when one player loses all their ships and show the winner
+3.1.1.3 The game should indicate the winner when one player has no remaining ships
 
 3.1.1.4 The game should have a timer counting down the amount of time left for a player’s turn
 
