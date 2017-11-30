@@ -1,14 +1,16 @@
-Battleship Game Project #Software Requirements Specification
+## Battleship Game Project #Software Requirements Specification
 
-#3. Specific Requirements
+# 3. Specific Requirements
 
 The specific requirements are -
 
-##3.1 Functionality
+## 3.1 Functionality
 
 Introduction - The software is a game inspired by the classicphysical game Battleship.
 
-###3.1.1 Game Essentials 3.1.1.1 The game should keep track of how many ships each player has left
+### 3.1.1 Game Essentials 
+
+3.1.1.1 The game should keep track of how many ships each player has left
 
 3.1.1.2 The game board should be able to be reset for a new game
 
@@ -18,7 +20,7 @@ Introduction - The software is a game inspired by the classicphysical game Battl
 
 3.1.1.5 A game should indicate if an attack hits by changing the color of a cell to either green for success or gray for miss.
 
-###3.1.2 Accept Input Through GUI
+### 3.1.2 Accept Input Through GUI
 
 3.1.2.1 The game shall receive and execute commands through on-screen buttons.
 
@@ -26,7 +28,7 @@ Introduction - The software is a game inspired by the classicphysical game Battl
 
 3.1.2.3 The game shall allow players to choose where they want to attack by clicking on a cell on the board
 
-###3.1.3 Two Player Game (Hotseat)
+### 3.1.3 Two Player Game (Hotseat)
 
 3.1.3.1 The game should allow two players to play using the same computer
 
