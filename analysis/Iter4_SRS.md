@@ -16,9 +16,7 @@ Introduction - The software is a game inspired by the classic physical game Batt
 
 3.1.1.3 The game should indicate the winner when one player has no remaining ships
 
-3.1.1.4 The game should have a timer counting down the amount of time left for a player’s turn
-
-3.1.1.5 A game should indicate if an attack hits by changing the color of a cell to either green for success or gray for miss.
+3.1.1.4 A game should indicate if an attack hits by changing the color of a cell to either green for success or gray for miss.
 
 ### 3.1.2 Accept Input Through GUI
 
