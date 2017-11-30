@@ -16,7 +16,7 @@ Introduction - The software is a game inspired by the classic physical game Batt
 
 1.1.1.5 The fame should indicate if a ship was hit by changing its color to red.
 
-### 1.1.2 Accept Input Through GUI
+### 1.1.2 Input
 
 1.1.2.1 The game shall receive and execute menu commands: Play, Reset, and Quit through on-screen buttons.
 
