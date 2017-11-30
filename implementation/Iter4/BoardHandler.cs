@@ -5,22 +5,30 @@ using UnityEngine;
 public class BoardHandler : MonoBehaviour {
     private GameState gameState = GameState.PLAYING;
 
+    //Adjustable board size (x & y)
     public int boardSize;
+    //Multidimensional array stores each player's board of cells.
     public GameObject[,,] boards;
 
+    //Current player and current number of ships
     public int currentPlayer;
     public int[] playerShips;
-
+    
+    //Cell prefab reference used for generation
     public GameObject cell;
 
+    //Mouse position for placement and attacking
     private Vector2 mousePos;
 
+    
+    
     void Start() {
         currentPlayer = 0;
         playerShips = new int[2];
         playerShips[0] = 0;
         playerShips[1] = 0;
-
+            
+        //Generation of board
         boards = new GameObject[2, boardSize, boardSize];
         //Players
         for (int i = 0; i < 2; i++)
@@ -71,10 +79,14 @@ public class BoardHandler : MonoBehaviour {
     {
         if (isPlaceable() && gameState == GameState.PLAYING)
         {
+            //Grabs mouse position
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            //Assigns the ship to the cell
             Ship.transform.parent = boards[currentPlayer, (int)Mathf.Round(mousePos.x), (int)Mathf.Round(mousePos.y) - (currentPlayer * 30)].gameObject.transform;
             boards[currentPlayer, (int)Mathf.Round(mousePos.x), (int)Mathf.Round(mousePos.y) - (currentPlayer * 30)].GetComponent<CellHandler>().hasShip = true;
+            //Subtract one from player's ship count
             playerShips[currentPlayer] += 1;
+            //Switch turns
             GameObject.Find("TurnManager").GetComponent<TurnManager>().shipsRemaining[currentPlayer]--;
         }
     }
