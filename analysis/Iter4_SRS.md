@@ -6,7 +6,7 @@ The specific requirements are -
 
 ##3.1 Functionality
 
-Introduction -
+Introduction - The software is a game inspired by the classicphysical game Battleship.
 
 ###3.1.1 Game Essentials 3.1.1.1 The game should keep track of how many ships each player has left
 
@@ -33,5 +33,3 @@ Introduction -
 3.1.3.2 The game should switch which between the players' boards when the players switch turns
 
 3.1.3.3 The game should display a board that shows the current player’s ships and where they’ve attacked
-
-##3.2
